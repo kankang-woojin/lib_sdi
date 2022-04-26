@@ -42,7 +42,7 @@
 		교육-초등학교, 교육-중학교, 교육-고등학교, 의료-공공의료시설, 의료-병·의원, 의료-종합병원, 판매-대규모점포, 판매-전통시장 15분이내 접근 가능한 시군구 인구 비율
 		출처: https://www.ktdb.go.kr/www/selectTrnsportTreeView.do?key=32 국가교통DB
 	7) 면적 (2014-2018)
-		행정구역 면적 및 공원 면적
+		행정구역 면적 및 공원 면적 (㎡)
 		출처: https://kosis.kr/statHtml/statHtml.do?orgId=116&tblId=DT_MLTM_2300&conn_path=I2
 	8) 공공도서관 장서수, 도서관 연식, 면적, 예산, 직원 정규직 수 (2014-2018)
 		출처: https://www.libsta.go.kr/ 문화체육관광부:국가도서관통계시스템
