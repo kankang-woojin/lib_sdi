@@ -10,15 +10,15 @@
 		출처: https://www.data.go.kr/data/3046077/fileData.do 공공데이터 포털: 국민연금공단
 	2) 성, 연령 및 교육정도별 인구(6세이상,내국인)-시군구 = 교육 (2015)
 		출처: https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1PM1501&conn_path=I2 통계청
-	3) 대사증후군 = 건강 (2014-2018) 
+	3) EQ5D = 건강 (2014-2018) 
 		출처: https://kosis.kr/statHtml/statHtml.do?orgId=350&tblId=DT_35007_N135&conn_path=I2 통계청
-	4) 주거시설 형태별 가구 = 주거 (2015)
-		출처: https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1PE1506&conn_path=I2 통계청
+	4) 주택 소유별 가구 = 주거 (2016-2018)
+		출처: https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1MA0041&conn_path=I2 통계청
 	5) 사회적 박탈지수(SDI, Social Deprivation Index)
-		평균소득월액(경제), 교육정도별 인구(교육), 대사증후군(건강), 주거시설가구(주거) 4가지 지표에 대하여, 4가지의 지표 모두 양의 상관관계를 가지도록 지표를 조정한 후, Standard Scaling 후 PCA를 실행함
+		평균소득월액(경제), 교육정도별 인구(교육), EQ-5D(건강), 주거 소유별(주거) 4가지 지표에 대하여, 4가지의 지표 모두 양의 상관관계를 가지도록 지표를 조정한 후, Standard Scaling 후 PCA를 실행함
 		PCA의 First Component만 이용하며, 교육, 건강, 주거, 경제 사정이 좋아질 수록 사회경제적 박탈지수가 낮아지는 구조로 -1을 곱하도록 함 
 	6) 변경사항
-		이전 연구에서 사용한 EQ-5D 데이터의 경우, 전국단위의 PCA를 수행한 결과, 재현율이 낮게 나와 지표를 변경하였음
+		대사증후군 데이터 -> EQ-5D, 주거시설 정보 -> 주택 소유 
 		경제, 교육, 건강과 더불어 주거 관련 지표를 추가하였음
 2. 통제 변인
 	1) 인구정태: 주민등록연앙인구 = 총인구, 여성인구 (2014-2018)
